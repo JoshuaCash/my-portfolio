@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,400;1,500;1,600&family=Roboto:ital,wght@0,200;0,300;0,400;0,500;0,900;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" type="image/svg" href="images/joshua-cash-logo-white.svg" />
+    <title>Joshua Cash</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/joshua-cash-logo.svg" alt="JC logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav_list">
+                
+                <!-- <li class="nav_item"><a href="#" class="nav_link">Services</a></li> -->
+                <li class="nav_item"><a href="#projects" class="nav_link">Portfolio</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+        <div data-aos="fade-in" data-aos-duration="3000">
+            <img src="images/nav-border.png" alt="cool rainbow vector" class="nav_img">
+        </div>
+        
+        
+        <!-- Introduction -->
+        <section class="hero-section" id="home">
+            
+            <div class="hero-container">
+                <div class="hero-wrapper">
+                    <div class="hero-text-wrapper" data-aos="fade-right" data-aos-duration="2000">
+                        
+                        <h3 class="title section_title" id="title">
+                            Hi, I'm Joshua
+                        </h3>
+                        <p class="subtitle section_subtitle">
+                            Professional UI/UX Designer and Web Developer
+                        </p>
+                        <a href="#contact"><button class="contact-btn">Contact Me</button></a>
+                    </div>
+                    
+                    <div class="hero-image-wrapper" data-aos="fade-left" data-aos-duration="2000">
+                        
+                        <img src="images/3dchar-400.png" alt="My 3D virtual look-a-like"
+                        srcset="images/3dchar-400.png 400w,
+                        images/3dchar-600.png 600w,
+                        images/3dchar-800.png 800w, 
+                        images/3dchar-1100.png 1100w"
+                        class="hero-img">
+                    </div>
+                </div>
+            </div>
+         
+        </section>
+        
+        <!-- Projects -->
+        
+        <section class="services-section project-section" id="projects">
+            <div class="header services-header">
+                <h2 class="services-header">Featured Projects</h2>
+        </div>
+        <div class="services-card-container">
+            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" >
+                <div>
+                   <a href="https://villegaslawns.com/" target="_blank"><img src="/images/villegaslawns.png" class="project-image" alt=""></a>
+                </div>
+                <h4>Villegas Lawn Care</h4>
+                <p>
+                    Website built to the client's needs using WordPress, Elementor, and CSS 
+                </p>
+                <a href="https://villegaslawns.com/" target="_blank">
+                    <button class="project-btn project-live-btn">View Live</button>
+                </a>
+            </div>
+            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                <div>
+                   <a href="/pages/weather.html" target="_blank"><img src="/images/weatherapp-new.png" class="project-image" alt=""></a>
+                </div>
+                <h4>Weather App</h4>
+                <p>
+                    This app returns weather data for the searched city using Open Weather Map API 
+                </p>
+                
+                <a href="/pages/weather.html" target="_blank"><button class="project-btn project-live-btn">View Live</button></a>
+            </div>
+            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                <div>
+                    <a href="/pages/hexgen.html" target="_blank">
+                        <img src="/images/rando-hex.png" class="project-image" alt="">
+                    </a>
+                </div>
+                <h4>Random Color Generator</h4>
+                <p>
+                    Generates a random color and changes the elements on the page to that color 
+                </p>
+                <a href="/pages/hexgen.html" target="_blank">
+                    <button class="project-btn project-live-btn">View Live</button>
+                </a>
+            </div>
+        </div>
+        
+        <div class="project-link-container">
+               <a href="https://github.com/JoshuaCash?tab=repositories" target="_blank" class="project-link">View my GitHub repository</a>
+        </div>
+    </section>
+
+   
+    <!-- TOOLS -->
+    <section class="services-section tools-section" id="services">
+
+     
+        <div class="header services-header">
+            <h2 class="services-header">The Tools I Use</h2>
+        </div>
+        <div class="tool-logo">
+            <div data-aos="zoom-in" >
+                <img src="/images/html-5-logo.png" alt="HTML5 logo">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="200">
+                <img src="/images/CSS-3-logo.png" alt="CSS3 logo">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="400">
+                <img src="/images/JS-6-logo.png" alt="JS logo">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="600">
+                <img src="images/node.js-logo.png" alt="node.js logo">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="800">
+                <img src="/images/github-logo.png" alt="github logo">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="1000">
+                <img src="/images/Figma-logo.png" alt="figma logo">   
+            </div> 
+        </div>
+        
+    </div>
+</section>
+
+    <!-- About Me -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image-container" data-aos="flip-left" data-aos-duration="1000">
+                <img src="images/rainbow-pattern-png.png" alt="rainbow pattern" class="about_img">
+            </div>
+            <div class="about-content-container">
+                <div class="content about-content">
+                    <div class="header about-header-container" data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
+                        <h2 class=" header about-header">About Me</h2>
+                        <div class="line about-line" data-aos="slide-down"></div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                        <p>
+                             Hi, my name is Joshua and I am a web developer and UX/UI designer. I have a passion for learning, tinkering and figuring out how things work. That is why I love technology, it has always fascinated me and is a never ending sorce of new discoveries and education. Some of my other interests are familiy, travel, and gaming. Currently you can find me in queue in the Warzone lobby on a friday night but some of my classic go-to's are League of Legends, Counter-Strike, and Age of Empires.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                        <a href="/docs/Joshua-Cash-Dev (3).pdf" download>
+                            <button class="resume-download" aria-label="download my resume">Download Resume</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="side-img-container" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" >
+                <img src="images/right-side-vector.png" alt="" class="side-image">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    
+    <section class="contact-section" id="contact">
+
+        <div class="contact-container">
+            <div class="contact-icons-left">
+                <div class="contact-icons" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                    <img src="/images/email-icon-25.svg" alt="email icon">
+                </div>
+                <a href="mailto:josh@joshuacash.com">josh@joshuacash.com</a>
+                
+            </div>
+            <div class="form-container">
+                <form action="https://formsubmit.co/joshcash86@gmail.com" class="form" method="POST">
+                    <div class="header contact-header" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                        <input type="email" name="email"  placeholder="Email" required>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                        <textarea name="message" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="5000">
+                        <button type="submit" class="form-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    
+    <footer>
+        <div class="footer-container">
+            <div>
+                <img src="images/joshua-cash-logo-white.svg" alt="JC logo">
+            </div>
+            <div>
+                <p>© Copyright 2022. All rights reserved.</p>
+            </div>
+            
+               <div>
+                    <a href="https://github.com/JoshuaCash">
+                        <img src="images/github-link-logo.svg" alt="link to my linked in account">
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-kidd-cash/">
+                        <img src="images/linkedin-link-logo.svg" alt="link to my linked in account">
+                    </a>
+               </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/scripts.js"></script>
+</body>
+</html>
