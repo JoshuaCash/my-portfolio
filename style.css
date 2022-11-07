@@ -457,7 +457,7 @@ header {
 .project-header {
     display: flex;
     justify-content: space-around;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 }
 
 
