@@ -28,7 +28,7 @@
         <nav class="nav">
             <ul class="nav_list">
                 
-                <!-- <li class="nav_item"><a href="#" class="nav_link">Services</a></li> -->
+                <!-- <li class="nav_item"><a href="#" class="nav_link">project</a></li> -->
                 <li class="nav_item"><a href="#projects" class="nav_link">Portfolio</a></li>
                 <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
                 <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
@@ -76,37 +76,45 @@
         
         <!-- Projects -->
         
-        <section class="services-section project-section" id="projects">
-            <div class="header services-header">
-                <h2 class="services-header">Featured Projects</h2>
+        <section class="project-section project-section" id="projects">
+            <div class="header project-header">
+                <h2 class="project-header">Featured Projects</h2>
         </div>
-        <div class="services-card-container">
-            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" >
+
+<!-- CARD CONTAINER -->
+        <div class="project-card-container">
+
+    <!-- CARDS -->
+
+            <!-- CARD 1 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000" >
                 <div>
-                   <a href="https://villegaslawns.com/" target="_blank"><img src="/images/villegaslawns.png" class="project-image" alt=""></a>
+                   <a href="https://villegaslawns.com/" target="_blank"><img src="/images/admin-dashboard1.png" class="project-image" alt=""></a>
                 </div>
-                <h4>Villegas Lawn Care</h4>
+                <h4>Admin Dashboard</h4>
                 <p>
-                    Website built to the client's needs using WordPress, Elementor, and CSS 
+                    Mock data dashboard display using react, material UI, and various react libraries
                 </p>
                 <a href="https://villegaslawns.com/" target="_blank">
                     <button class="project-btn project-live-btn">View Live</button>
                 </a>
             </div>
 
-            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+            <!-- CARD 2 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
                 <div>
-                   <a href="/pages/weather.html" target="_blank"><img src="/images/weatherapp-new.png" class="project-image" alt=""></a>
+                   <a href="https://hvac-airborne.com/" target="_blank"><img src="/images/airborne-hvac.png" class="project-image" alt=""></a>
                 </div>
                 <h4>Weather App</h4>
                 <p>
                     This app returns weather data for the searched city using Open Weather Map API 
                 </p>
                 
-                <a href="/pages/weather.html" target="_blank"><button class="project-btn project-live-btn">View Live</button></a>
+                <a href="https://hvac-airborne.com/" target="_blank"><button class="project-btn project-live-btn">View Live</button></a>
             </div>
 
-            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+            <!-- CARD 3 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
                 <div>
                     <a href="/pages/hexgen.html" target="_blank">
                         <img src="/images/rando-hex.png" class="project-image" alt="">
@@ -121,7 +129,37 @@
                 </a>
             </div>
             
-            <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" >
+            <!-- CARD 4 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000"  >
+                <div>
+                    <a href="/pages/weather.html" target="_blank"><img src="/images/weatherapp-new.png" class="project-image" alt=""></a>
+                 </div>
+                 <h4>Weather App</h4>
+                 <p>
+                     This app returns weather data for the searched city using Open Weather Map API 
+                 </p>
+                 
+                 <a href="/pages/weather.html" target="_blank"><button class="project-btn project-live-btn">View Live</button></a>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                <div>
+                    <a href="/pages/hexgen.html" target="_blank">
+                        <img src="/images/rando-hex.png" class="project-image" alt="">
+                    </a>
+                </div>
+                <h4>Random Color Generator</h4>
+                <p>
+                    Generates a random color and changes the elements on the page to that color 
+                </p>
+                <a href="/pages/hexgen.html" target="_blank">
+                    <button class="project-btn project-live-btn">View Live</button>
+                </a>
+            </div>    
+            
+            <!-- CARD 6 -->
+            <div class="project-card design" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600" >
                 <div>
                     <a href="https://villegaslawns.com/" target="_blank"><img src="/images/villegaslawns.png" class="project-image" alt=""></a>
                 </div>
@@ -133,47 +171,20 @@
                     <button class="project-btn project-live-btn">View Live</button>
                 </a>
             </div>
+        </div>
             
-        <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" >
-            <div>
-               <a href="https://villegaslawns.com/" target="_blank"><img src="/images/villegaslawns.png" class="project-image" alt=""></a>
+            <div class="project-link-container">
+                <a href="https://github.com/JoshuaCash?tab=repositories" target="_blank" class="project-link">View my GitHub repository</a>
             </div>
-            <h4>Villegas Lawn Care</h4>
-            <p>
-                Website built to the client's needs using WordPress, Elementor, and CSS 
-            </p>
-            <a href="https://villegaslawns.com/" target="_blank">
-                <button class="project-btn project-live-btn">View Live</button>
-                <button class="project-btn project-live-btn">View Code</button>
-            </a>
-        </div>    
-        
-        <div class="services-card design" data-aos="flip-left" data-aos-duration="1000" >
-            <div>
-                <a href="https://villegaslawns.com/" target="_blank"><img src="/images/villegaslawns.png" class="project-image" alt=""></a>
-            </div>
-            <h4>Villegas Lawn Care</h4>
-            <p>
-                Website built to the client's needs using WordPress, Elementor, and CSS 
-            </p>
-            <a href="https://villegaslawns.com/" target="_blank">
-                <button class="project-btn project-live-btn">View Live</button>
-            </a>
-        </div>
-    </div>
-        
-        <div class="project-link-container">
-               <a href="https://github.com/JoshuaCash?tab=repositories" target="_blank" class="project-link">View my GitHub repository</a>
-        </div>
-    </section>
+        </section>
 
-   
-    <!-- TOOLS -->
-    <section class="services-section tools-section" id="services">
+    
+        <!-- TOOLS -->
+    <section class="project-section tools-section" id="project">
 
-     
-        <div class="header services-header">
-            <h2 class="services-header">The Tools I Use</h2>
+    
+        <div class="header project-header">
+            <h2 class="project-header">The Tools I Use</h2>
         </div>
         <div class="tool-logo">
             <div data-aos="zoom-in" >

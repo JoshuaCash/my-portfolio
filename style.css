@@ -374,7 +374,6 @@ header {
 
 .project-image {
     border-radius: 1.5rem 1.5rem 0 0;
-    /* margin-top: 1rem; */
     margin-bottom: 1rem;
     filter: brightness(85%);
     opacity: .9;
@@ -447,14 +446,15 @@ header {
     background: var(--clr-light-gray);
 }
 
-.services-section {
+.project-section {
     color: var(--clr-light);
     min-height: 90vh;
+    margin: 0 auto;
     align-items: center;
     padding: 2em 5em;
 }
 
-.services-header {
+.project-header {
     display: flex;
     justify-content: space-around;
     padding-top: 5rem;
@@ -466,25 +466,24 @@ header {
 
 /* Cards */
 
-.services-card-container {
+.project-card-container {
     margin-top: 5.8rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    
-    
+    place-items: center;
 }
 
 /* @media (max-width: 1227px) {
-    .services-card-container {
+    .project-card-container {
         flex-direction: column;
     }
 } */
 
-.services-card {
+.project-card {
     box-shadow: var(--bs);
     background: var(--clr-light-gray);
-    /* width: 23rem; */
+    max-width: 25rem;
     min-width: 15rem;
     /* max-width: 100%; */
     /* padding: 1.5rem 4.3rem 2.2rem 3.5rem; */
@@ -768,18 +767,18 @@ footer > div > div:nth-of-type(3) {
 
 @media  screen and (max-width: 1110px ) {
 
-    .services-card-container {
+    .project-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 700px) {
     
-    .services-card-container {
+    .project-card-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .services-card {
+    .project-card {
         align-self: center;
     }
 
