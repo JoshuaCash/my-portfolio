@@ -33,8 +33,6 @@
     --fs-p: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
-
-
 }
 
 @media (min-width: 1130px) {
@@ -495,10 +493,10 @@ header {
     /* z-index: 1; */
 }
 
-.card-icon {
-    margin: 0 auto;
-    padding-bottom: 1.5rem;
+.project-card-info {
+    padding: .5rem;
 }
+
 
 /* Tools Section */
 
