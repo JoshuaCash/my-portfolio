@@ -446,7 +446,7 @@ header {
 
 .project-section {
     color: var(--clr-light);
-    min-height: 90vh;
+    min-height: 70vh;
     margin: 0 auto;
     align-items: center;
     padding: 2em 5em;
