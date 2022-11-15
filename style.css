@@ -61,6 +61,10 @@
      max-width: 100%;
      height: auto;
  }    
+
+ a:hover {
+  color: var(--clr-purple);
+ }
     
 
 
@@ -115,6 +119,10 @@ header {
 }
 
 /* Navigation Menu */
+
+.nav_link:hover {
+  color: var(--clr-purple);
+}
 
 @media screen and (min-width: 601px) {
 .nav_list {
@@ -201,12 +209,18 @@ header {
         text-decoration: none;
     }
     
-    .nav_link:hover {
+ 
+
+    .nav-open .nav_link:hover {
         background-color: var(--clr-light);
         color: var(--clr-light-gray);
         padding: 1em 100vw;
-
     }
+
+    .nav-open .nav_link:active {
+        color: var(--clr-purple);
+    }
+
     
     
     .nav-open .nav {
@@ -284,6 +298,8 @@ header {
         padding-bottom: 7rem;
         position: relative;
     }
+
+
 
 
 
@@ -368,6 +384,20 @@ header {
         background-color: var(--clr-orange);
         border: none;
         color: var(--clr-light);
+        font-family: var(--ff-secondary);
+        font-size: var(--fs-h4);
+        font-weight: var(--fw-medium);
+        transition: all .4s ease;
+    }
+
+    .contact-btn:hover {
+        margin-top: 20px;
+        margin-bottom: 100px;
+        padding: .5em .8em;
+        border-radius: 1rem;
+        background-color: var(--clr-light);
+        border: 2px solid var(--clr-orange);
+        color: var(--clr-orange);
         font-family: var(--ff-secondary);
         font-size: var(--fs-h4);
         font-weight: var(--fw-medium);
@@ -581,6 +611,20 @@ header {
     font-family: var(--ff-secondary);
     font-size: var(--fs-h4);
     font-weight: var(--fw-medium);
+    transition: all .4s ease;
+}
+
+.resume-download:hover {
+      margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    background-color: var(--clr-dark-gray);
+    border: 2px solid var(--clr-orange);
+    color: var(--clr-orange);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-medium);
 }
 
 .side-image {
@@ -695,7 +739,22 @@ header {
     font-family: var(--ff-secondary);
     font-size: var(--fs-h4);
     font-weight: var(--fw-medium);
+    transition: all .4s ease;
 }
+
+.form-btn:hover {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 5px 30px;
+    border-radius: 1rem;
+    background-color: var(--clr-dark-gray);
+    border: 2px solid var(--clr-orange);
+    color: var(--clr-orange);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-medium);
+}
+
 
 form h2 {
     margin-bottom: 10px;
